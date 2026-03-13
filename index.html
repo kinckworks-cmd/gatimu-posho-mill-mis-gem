@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatimu Posho Mill | MIS Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 id="company-name" class="header__title">Loading...</h1>
+            <p id="company-meta" class="header__subtitle"></p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="section">
+            <h2 class="section__title">Research: Identification of Challenges</h2>
+            <div id="problems-container" class="grid-layout"></div>
+        </section>
+
+        <section class="section">
+            <h2 class="section__title">Interactive Implementation Roadmap</h2>
+            <div class="budget-dashboard">
+                <div class="budget-dashboard__list" id="budget-items-container"></div>
+                <div class="budget-dashboard__summary sticky-panel">
+                    <h3>Investment Summary</h3>
+                    <div class="summary-row">
+                        <span>Current Selected Cost:</span>
+                        <span id="total-cost" class="total-amount">KES 0</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Total Implementation Cap:</span>
+                        <span>KES 450,000</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div id="budget-progress" class="progress-bar__fill"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
